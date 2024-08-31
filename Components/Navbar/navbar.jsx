@@ -1,8 +1,23 @@
 import './navbar.css'
+import { Link } from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'; 
 import {faBars} from '@fortawesome/free-solid-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
+const Links = [
+  {
+    name: "Inicio",
+    href: "/inicio",
+  },
+  {
+    name: "Productos",
+    href: "/productos",
+  },
+  {
+    name: "Contacto",
+    href: "/contacto",
+  },
+];
 export default function Navbar (){
     return (
         <nav>
@@ -15,25 +30,25 @@ export default function Navbar (){
           </div>
           <ul className="links">
             <li>
-              <a href="index.html">Inicio</a>
+              <Link to='/inicio'>Inicio</Link>
             </li>
             <li>
-              <a href="1.html">Platos</a>
+              <Link to='/productos'>Productos</Link>
             </li>
             <li>
-              <a href="2.html">Contacto</a>
+              <Link to='/contacto'>Contacto</Link>
             </li>
           </ul>
           <ul className="social-icons">
             <li className="icon-elem">
-              <a href="https://x.com/agoraphobico" className="icon">
+              <Link to="https://x.com/agoraphobico" className="icon">
                 <ion-icon name="logo-twitter"></ion-icon>
-              </a>
+              </Link>
             </li>
             <li className="icon-elem">
-              <a href="https://www.instagram.com/mat.svn/" className="icon">
+              <Link to="https://www.instagram.com/mat.svn/" className="icon">
               <FontAwesomeIcon icon={faInstagram} />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
