@@ -14,7 +14,7 @@ export default function App() {
     <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path="/inicio" element={<Inicio />}></Route>
+        <Route path="/" element={<Inicio />}></Route>
         <Route path="/productos" element={<Productos/>}></Route>
         <Route path="/contacto" element={<Contacto />}></Route>
       </Routes>

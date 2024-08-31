@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'; 
 import {faBars} from '@fortawesome/free-solid-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import Navicon from '../Navbar/a/navicon.jpg'
 
 const Links = [
   {
     name: "Inicio",
-    href: "/inicio",
+    href: "/",
   },
   {
     name: "Productos",
@@ -23,14 +24,14 @@ export default function Navbar (){
         <nav>
         <div className="nav-center">
           <div className="nav-header">
-            <img src="img4/EJP.ico" className="logo" alt="logo" />
+            <img src={ Navicon } className="logo"  />
             <button className="nav-toggle" onClick={handleFunction}>
             <FontAwesomeIcon icon={faBars} />
             </button>
           </div>
           <ul className="links">
             <li>
-              <Link to='/inicio'>Inicio</Link>
+              <Link to='/'>Inicio</Link>
             </li>
             <li>
               <Link to='/productos'>Productos</Link>
