@@ -1,4 +1,4 @@
-
+import { Footer } from '../Components/Footer/footer.jsx'
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import Navbar from '../Components/NavBar/navbar.jsx'
@@ -18,6 +18,7 @@ export default function App() {
         <Route path="/productos" element={<Productos/>}></Route>
         <Route path="/contacto" element={<Contacto />}></Route>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   </>
   )
