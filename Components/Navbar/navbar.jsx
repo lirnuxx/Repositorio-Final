@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'; 
 import {faBars} from '@fortawesome/free-solid-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import Navicon from '../Navbar/a/navicon.jpg'
+import Navicon from '../Navbar/Icon/navicon.jpg'
 
 const Links = [
   {
@@ -47,7 +47,7 @@ export default function Navbar (){
               </Link>
             </li>
             <li className="icon-elem">
-              <Link to="https://www.instagram.com/mat.svn/" className="icon">
+              <Link to="https://www.instagram.com/dolce_caemi/" className="icon">
               <FontAwesomeIcon icon={faInstagram} />
               </Link>
             </li>
