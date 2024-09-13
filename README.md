@@ -1,8 +1,11 @@
-# React + Vite
+# Repositorio final
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el repositorio para el trabajo final del curso de Generación T. Este proyecto está siendo desarrollado por Scovenna Mateo, Molina Alejandro, Kelly Clemente, Martino Santiago y Martinez Benicio.
 
-Currently, two official plugins are available:
+IGs:
+@mat.svn
+@alee_molinaa_
+@kellyndropo
+@snt.martino
+@benicio_2.0.0.8
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
