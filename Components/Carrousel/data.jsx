@@ -1,22 +1,18 @@
 export const countries = [
     {
       image: "/images/brazil.jpg",
-      title: "Brazil",
+      title: "🧁Dolce Caemi",
     },
     {
       image: "/images/china.jpg",
-      title: "China",
+      title: "🍰 Elaboración tortas y postres.",
     },
     {
       image: "/images/france.jpg",
-      title: "France",
+      title: "📌 Fragata Sarmiento 211, Suipacha, BS AS",
     },
     {
       image: "/images/japan.jpg",
-      title: "Japan",
-    },
-    {
-      image: "/images/norway.jpg",
-      title: "Norway",
+      title: "👩‍🍳Pastelería profesional",
     },
   ];
