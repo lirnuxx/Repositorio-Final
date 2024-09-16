@@ -1,7 +1,7 @@
 import { Footer } from '../Components/Footer/footer.jsx'
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
-import Navbar from '../Components/NavBar/navbar.jsx'
+import Navbar from '../Components/Navbar/navbar.jsx'
 import Inicio from '../Pages/Inicio/Inicio.jsx'
 import Contacto  from '../Pages/Contacto/contacto.jsx'
 import Productos from '../Pages/Productos/productos.jsx'
