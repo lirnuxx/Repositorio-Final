@@ -5,7 +5,6 @@
     
     font-size: 50px;
     background-image: linear-gradient(90deg, rgba(227,179,152,1) 5%, rgba(166,131,123,1) 73%);
-    -webkit-background-clip: text;
     color: transparent;
     text-align: center;
     position: relative;

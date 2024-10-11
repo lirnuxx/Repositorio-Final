@@ -63,6 +63,7 @@ img {
 .card__img {
   width: 328px;
   border-radius: 1.5rem;
+  height: 300px;
 }
 
 .card__data {

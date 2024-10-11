@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import "./carousel.css";
-import '../../Responsive/responsive.css'
+
 
 
 function Carousel({ images }) {
